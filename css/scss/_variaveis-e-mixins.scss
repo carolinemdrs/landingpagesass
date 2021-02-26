@@ -1,0 +1,20 @@
+//cores
+$amarelo-escuro: #D8CD01;
+$branco: #fff;
+$cinza-escuro:#222222;
+$cinza-claro:#808080;
+$transparente: #1fe0;
+
+
+//font size
+$pequeno: 0.875em;
+$medio: 1.2em;
+$grande: 2.5em;
+
+
+//conjunto de variaveis para botoes do card da intro
+@mixin buttons-join-base {
+  font-weight:bold;
+  padding: 5px 10px;
+  border-radius: 15px;
+}

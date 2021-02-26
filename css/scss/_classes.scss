@@ -1,0 +1,55 @@
+#classes {
+  background-color: $branco;  
+  z-index: 0;
+}
+
+#classes-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding:140px 0 120px 0;
+}
+@media(max-width:1150px){
+  #classes-text{
+    padding:140px 0 15px 0;
+  }
+}
+
+#classes-text h1 {
+  font-size: $grande;
+  padding-bottom: 10px;
+}
+
+#classes-text p {
+  font-style: italic;
+  color: $cinza-claro;
+  padding: 0 8px;
+}
+/*cards-aulas jr,middle,third*/
+
+#class-type {
+  background-color: $amarelo-escuro;
+  width: 100vw;
+  height: 40vh;
+  position: relative;
+}
+@media (max-width:1150px){
+  #class-type   {
+    height: 120vh;
+  }
+}
+@media (max-width:600px){
+  #class-type   {
+    height: 199vh;
+  }
+}
+
+#class-type-container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -100px 0 0px 340px;
+  text-align: center;
+}
+

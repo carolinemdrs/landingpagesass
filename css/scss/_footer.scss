@@ -1,0 +1,31 @@
+footer {
+  background-color: #141414;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  color: #fff;
+  padding: 50px 0px;
+  justify-content: space-around;
+  line-height: 1.4em;
+  font-size: 0.875em;
+}
+
+footer h3 {
+  color: #D8CD01;
+  margin-top: 10px;
+}
+
+#footer-social-media {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+#footer-social-media img{
+  width: 40px;
+  height: 40px;
+}
+.footer-item{
+ width: 200px;
+}
+
+

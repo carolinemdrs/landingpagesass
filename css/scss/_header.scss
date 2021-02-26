@@ -1,0 +1,39 @@
+header {
+  background-color: $amarelo-escuro;
+  width: 100%;
+}
+
+#menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+
+#menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#menu-nav ul li a {
+  color: $branco;
+  font-size: $pequeno;
+  padding: 10px;
+}
+#menu-nav ul li a:hover {
+  font-weight: bold;
+}
+#menu-items{
+  display: flex;  
+  align-items: center;
+  flex-wrap: wrap;
+}
+#media-icons {
+  display: flex;
+}
+
+#media-icons img {
+  width: 40px;
+  height: 40px;
+}

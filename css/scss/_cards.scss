@@ -1,0 +1,124 @@
+
+#class-type {
+  background-color:  $amarelo-escuro;
+  width: 100%;
+  height: 40vh;
+}
+@media (max-width:1150px){
+  #class-type   {
+    height: 120vh;
+  }
+}
+@media (max-width:600px){
+  #class-type   {
+    height: 199vh;
+  }
+}
+
+#class-type-container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -100px 0 0px 340px;
+  text-align: center;
+}
+@media (max-width:1150px){
+  #class-type-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 200px;
+  }
+}
+@media (max-width:900px){
+  #class-type-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 50px;
+  }
+}
+@media (max-width:600px){
+  #class-type-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 160px;
+  }
+}
+@media (max-width:500px){
+  #class-type-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 70px;
+  }
+}
+/*estilização - cards*/
+.card-class-type {
+  max-width: 160px;
+  background-color: $transparente;
+  margin: 30px;   
+}
+@media (max-width:1150px){
+  .card-class-type{
+    display: flex; 
+    max-width: 560px;
+    align-items: center;
+  }
+}
+@media (max-width:600px){
+  .card-class-type{
+    flex-direction: column;
+    max-width: 200px;
+    margin: 10px;
+  }
+}
+
+.card-class-type img {
+  border-radius: 20px;
+}
+.card-class-type h3 {
+  color: $branco;
+  padding: 20px 0;
+  font-weight: bold;
+  font-size: $pequeno;
+}
+@media (max-width:1150px){
+  .card-class-type h3{
+    padding: 20px;
+    font-size: 1.2em;
+  }
+}
+@media (max-width:600px){
+  .card-class-type h3{
+    padding: 5px 0;
+  }
+}
+.card-class-type p {
+  color: $branco;
+  padding-bottom: 20px;
+  font-size: $pequeno;
+  font-style: normal;
+  line-height: 1.4em;
+}
+@media (max-width:1150px){
+  .card-class-type p{
+    padding: 20px;
+    font-size: $medio;
+  }
+}
+@media (max-width:600px){
+  .card-class-type p{
+    padding: 2px;
+  }
+}
+.card-class-type a {
+  color: $branco;
+  border: 1px solid $branco;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: $pequeno;
+  font-weight: bold;
+}
+@media (max-width:1150px){
+  .card-class-type a{
+    padding: 10px 20px;
+  }
+}

@@ -1,0 +1,790 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../../Desktop/SASS/amadre/css/scss/reset.css */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 95, ../../Desktop/SASS/amadre/css/scss/reset.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* line 108, ../../Desktop/SASS/amadre/css/scss/reset.css */
+body {
+  line-height: 1;
+}
+
+/* line 111, ../../Desktop/SASS/amadre/css/scss/reset.css */
+ol,
+ul {
+  list-style: none;
+}
+
+/* line 115, ../../Desktop/SASS/amadre/css/scss/reset.css */
+blockquote,
+q {
+  quotes: none;
+}
+
+/* line 119, ../../Desktop/SASS/amadre/css/scss/reset.css */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+/* line 126, ../../Desktop/SASS/amadre/css/scss/reset.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 131, ../../Desktop/SASS/amadre/css/scss/reset.css */
+* {
+  box-sizing: border-box;
+}
+
+/* line 135, ../../Desktop/SASS/amadre/css/scss/reset.css */
+ul {
+  list-style: none;
+}
+
+/* line 139, ../../Desktop/SASS/amadre/css/scss/reset.css */
+a {
+  text-decoration: none;
+}
+
+/* line 143, ../../Desktop/SASS/amadre/css/scss/reset.css */
+img {
+  display: block;
+  width: 100%;
+}
+
+/* line 1, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 7, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+.container {
+  width: 1220px;
+  margin: 0 auto;
+  padding: 0px;
+  position: relative;
+}
+
+/*
+.container:after, .container:before {
+	content: " ";
+	display: table;
+}
+
+.container:after {
+	clear: both;
+}*/
+/* line 24, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-1-3 {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* line 30, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+.grid-1 {
+  width: 40px;
+}
+
+/* line 31, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+.grid-2 {
+  width: 100px;
+}
+
+/* line 32, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+.grid-3 {
+  width: 160px;
+}
+
+/* line 33, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+.grid-4 {
+  width: 220px;
+}
+
+/* line 34, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+.grid-5 {
+  width: 280px;
+}
+
+/* line 35, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+.grid-6 {
+  width: 340px;
+}
+
+/* line 36, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+.grid-7 {
+  width: 400px;
+}
+
+/* line 37, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+.grid-8 {
+  width: 460px;
+}
+
+/* line 38, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+.grid-9 {
+  width: 520px;
+}
+
+/* line 39, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+.grid-10 {
+  width: 580px;
+}
+
+/* line 40, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+.grid-11 {
+  width: 640px;
+}
+
+/* line 41, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+.grid-12 {
+  width: 700px;
+}
+
+/* line 42, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+.grid-13 {
+  width: 760px;
+}
+
+/* line 43, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+.grid-14 {
+  width: 820px;
+}
+
+/* line 44, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+.grid-15 {
+  width: 880px;
+}
+
+/* line 45, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+.grid-16 {
+  width: 940px;
+}
+
+/* line 46, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+.grid-1-3 {
+  width: 300px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* line 50, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .container {
+    width: 768px;
+  }
+  /* line 54, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .grid-1 {
+    width: 28px;
+  }
+  /* line 55, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .grid-2 {
+    width: 76px;
+  }
+  /* line 56, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .grid-3 {
+    width: 124px;
+  }
+  /* line 57, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .grid-4 {
+    width: 172px;
+  }
+  /* line 58, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .grid-5 {
+    width: 220px;
+  }
+  /* line 59, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .grid-6 {
+    width: 268px;
+  }
+  /* line 60, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .grid-7 {
+    width: 316px;
+  }
+  /* line 61, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .grid-8 {
+    width: 364px;
+  }
+  /* line 62, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .grid-9 {
+    width: 412px;
+  }
+  /* line 63, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .grid-10 {
+    width: 460px;
+  }
+  /* line 64, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .grid-11 {
+    width: 508px;
+  }
+  /* line 65, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .grid-12 {
+    width: 556px;
+  }
+  /* line 66, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .grid-13 {
+    width: 604px;
+  }
+  /* line 67, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .grid-14 {
+    width: 652px;
+  }
+  /* line 68, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .grid-15 {
+    width: 700px;
+  }
+  /* line 69, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .grid-16 {
+    width: 748px;
+  }
+  /* line 70, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .grid-1-3 {
+    width: 236px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 75, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .container {
+    width: 300px;
+  }
+  /* line 79, ../../Desktop/SASS/amadre/css/scss/_grid.scss */
+  .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-1-3 {
+    width: 300px;
+    margin: 0 0 20px 0;
+    float: none;
+  }
+}
+
+/* line 1, ../../Desktop/SASS/amadre/css/scss/_header.scss */
+header {
+  background-color: #D8CD01;
+  width: 100%;
+}
+
+/* line 6, ../../Desktop/SASS/amadre/css/scss/_header.scss */
+#menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+
+/* line 14, ../../Desktop/SASS/amadre/css/scss/_header.scss */
+#menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 19, ../../Desktop/SASS/amadre/css/scss/_header.scss */
+#menu-nav ul li a {
+  color: #fff;
+  font-size: 0.875em;
+  padding: 10px;
+}
+
+/* line 24, ../../Desktop/SASS/amadre/css/scss/_header.scss */
+#menu-nav ul li a:hover {
+  font-weight: bold;
+}
+
+/* line 27, ../../Desktop/SASS/amadre/css/scss/_header.scss */
+#menu-items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 32, ../../Desktop/SASS/amadre/css/scss/_header.scss */
+#media-icons {
+  display: flex;
+}
+
+/* line 36, ../../Desktop/SASS/amadre/css/scss/_header.scss */
+#media-icons img {
+  width: 40px;
+  height: 40px;
+}
+
+/* line 1, ../../Desktop/SASS/amadre/css/scss/_intro.scss */
+#intro {
+  background-image: url("../../imgs/background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: auto;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px 0 120px 0;
+}
+
+@media (max-width: 1050px) {
+  /* line 14, ../../Desktop/SASS/amadre/css/scss/_intro.scss */
+  #intro {
+    background-image: none;
+    background-color: #222222;
+  }
+}
+
+/* line 20, ../../Desktop/SASS/amadre/css/scss/_intro.scss */
+#intro h1 {
+  font-size: 3em;
+}
+
+/* line 24, ../../Desktop/SASS/amadre/css/scss/_intro.scss */
+#button-explore {
+  color: #fff;
+  font-weight: bold;
+  background-color: #D8CD01;
+  border-radius: 10px;
+  padding: 8px 15px;
+}
+
+/* line 32, ../../Desktop/SASS/amadre/css/scss/_intro.scss */
+#circulo {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #D8CD01;
+}
+
+/* line 39, ../../Desktop/SASS/amadre/css/scss/_intro.scss */
+#intro img {
+  width: 160px;
+}
+
+/* line 43, ../../Desktop/SASS/amadre/css/scss/_intro.scss */
+.intro-items {
+  margin: 20px 40px;
+}
+
+/*card join us*/
+/* line 48, ../../Desktop/SASS/amadre/css/scss/_intro.scss */
+#card-join {
+  background-color: #fff;
+  color: #222222;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px 60px;
+  position: absolute;
+  z-index: 1;
+  margin: 0px 20px;
+  margin-top: 520px;
+}
+
+/* line 60, ../../Desktop/SASS/amadre/css/scss/_intro.scss */
+#card-join p {
+  color: #808080;
+  font-style: italic;
+}
+
+/* line 65, ../../Desktop/SASS/amadre/css/scss/_intro.scss */
+#buttons-join {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* line 72, ../../Desktop/SASS/amadre/css/scss/_intro.scss */
+#button-start {
+  background-color: #D8CD01;
+  color: #fff;
+  margin-right: 8px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+/* line 79, ../../Desktop/SASS/amadre/css/scss/_intro.scss */
+#button-join {
+  border: 1px solid #D8CD01;
+  color: #D8CD01;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+/* line 85, ../../Desktop/SASS/amadre/css/scss/_intro.scss */
+.card-join-item {
+  padding: 10px;
+}
+
+/* line 1, ../../Desktop/SASS/amadre/css/scss/_classes.scss */
+#classes {
+  background-color: #fff;
+  z-index: 0;
+}
+
+/* line 6, ../../Desktop/SASS/amadre/css/scss/_classes.scss */
+#classes-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 140px 0 120px 0;
+}
+
+@media (max-width: 1150px) {
+  /* line 14, ../../Desktop/SASS/amadre/css/scss/_classes.scss */
+  #classes-text {
+    padding: 140px 0 15px 0;
+  }
+}
+
+/* line 19, ../../Desktop/SASS/amadre/css/scss/_classes.scss */
+#classes-text h1 {
+  font-size: 2.5em;
+  padding-bottom: 10px;
+}
+
+/* line 24, ../../Desktop/SASS/amadre/css/scss/_classes.scss */
+#classes-text p {
+  font-style: italic;
+  color: #808080;
+  padding: 0 8px;
+}
+
+/*cards-aulas jr,middle,third*/
+/* line 31, ../../Desktop/SASS/amadre/css/scss/_classes.scss */
+#class-type {
+  background-color: #D8CD01;
+  width: 100vw;
+  height: 40vh;
+  position: relative;
+}
+
+@media (max-width: 1150px) {
+  /* line 38, ../../Desktop/SASS/amadre/css/scss/_classes.scss */
+  #class-type {
+    height: 120vh;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 43, ../../Desktop/SASS/amadre/css/scss/_classes.scss */
+  #class-type {
+    height: 199vh;
+  }
+}
+
+/* line 48, ../../Desktop/SASS/amadre/css/scss/_classes.scss */
+#class-type-container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -100px 0 0px 340px;
+  text-align: center;
+}
+
+/* line 2, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+#class-type {
+  background-color: #D8CD01;
+  width: 100%;
+  height: 40vh;
+}
+
+@media (max-width: 1150px) {
+  /* line 8, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+  #class-type {
+    height: 120vh;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 13, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+  #class-type {
+    height: 199vh;
+  }
+}
+
+/* line 18, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+#class-type-container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -100px 0 0px 340px;
+  text-align: center;
+}
+
+@media (max-width: 1150px) {
+  /* line 26, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+  #class-type-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 200px;
+  }
+}
+
+@media (max-width: 900px) {
+  /* line 33, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+  #class-type-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 40, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+  #class-type-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 160px;
+  }
+}
+
+@media (max-width: 500px) {
+  /* line 47, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+  #class-type-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 70px;
+  }
+}
+
+/*estilização - cards*/
+/* line 54, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+.card-class-type {
+  max-width: 160px;
+  background-color: #1fe0;
+  margin: 30px;
+}
+
+@media (max-width: 1150px) {
+  /* line 60, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+  .card-class-type {
+    display: flex;
+    max-width: 560px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 67, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+  .card-class-type {
+    flex-direction: column;
+    max-width: 200px;
+    margin: 10px;
+  }
+}
+
+/* line 74, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+.card-class-type img {
+  border-radius: 20px;
+}
+
+/* line 77, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+.card-class-type h3 {
+  color: #fff;
+  padding: 20px 0;
+  font-weight: bold;
+  font-size: 0.875em;
+}
+
+@media (max-width: 1150px) {
+  /* line 84, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+  .card-class-type h3 {
+    padding: 20px;
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 90, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+  .card-class-type h3 {
+    padding: 5px 0;
+  }
+}
+
+/* line 94, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+.card-class-type p {
+  color: #fff;
+  padding-bottom: 20px;
+  font-size: 0.875em;
+  font-style: normal;
+  line-height: 1.4em;
+}
+
+@media (max-width: 1150px) {
+  /* line 102, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+  .card-class-type p {
+    padding: 20px;
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 108, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+  .card-class-type p {
+    padding: 2px;
+  }
+}
+
+/* line 112, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+.card-class-type a {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 0.875em;
+  font-weight: bold;
+}
+
+@media (max-width: 1150px) {
+  /* line 121, ../../Desktop/SASS/amadre/css/scss/_cards.scss */
+  .card-class-type a {
+    padding: 10px 20px;
+  }
+}
+
+/* line 1, ../../Desktop/SASS/amadre/css/scss/_footer.scss */
+footer {
+  background-color: #141414;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  color: #fff;
+  padding: 50px 0px;
+  justify-content: space-around;
+  line-height: 1.4em;
+  font-size: 0.875em;
+}
+
+/* line 13, ../../Desktop/SASS/amadre/css/scss/_footer.scss */
+footer h3 {
+  color: #D8CD01;
+  margin-top: 10px;
+}
+
+/* line 18, ../../Desktop/SASS/amadre/css/scss/_footer.scss */
+#footer-social-media {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+/* line 23, ../../Desktop/SASS/amadre/css/scss/_footer.scss */
+#footer-social-media img {
+  width: 40px;
+  height: 40px;
+}
+
+/* line 27, ../../Desktop/SASS/amadre/css/scss/_footer.scss */
+.footer-item {
+  width: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */
