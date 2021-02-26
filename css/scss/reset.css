@@ -139,8 +139,12 @@ ul {
 a {
   text-decoration: none;
 }
-
+/* config geral*/
 img {
   display: block;
   width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }

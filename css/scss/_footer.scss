@@ -1,9 +1,9 @@
 footer {
-  background-color: #141414;
+  background-color:$preto;
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-  color: #fff;
+  color: $branco;
   padding: 50px 0px;
   justify-content: space-around;
   line-height: 1.4em;
@@ -11,7 +11,7 @@ footer {
 }
 
 footer h3 {
-  color: #D8CD01;
+  color:$amarelo-escuro;
   margin-top: 10px;
 }
 
